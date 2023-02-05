@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    color: hsl(234, 12%, 34%);
+}
+
+.description {
+    color: hsl(229, 6%, 66%);
+}
+
+#textcont {
+    padding: 0 23rem;
+    margin-top: 1rem;
+}
+
+#cardscont {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+
+.card {
+    min-height: 15rem;
+    max-width: 22rem;
+    border: none;
+    box-shadow: 0 0 2rem -0.5rem hsl(229, 6%, 66%);
+    padding: 1rem;
+}
+
+#team-builder {
+    border-top: solid hsl(0, 78%, 62%) 0.5rem;
+    margin-bottom: 1rem;
+}
+
+#karma {
+    border-top: solid hsl(34, 97%, 64%) 0.5rem;
+}
+
+#supervisor {
+    margin-left: auto;
+    border-top: solid hsl(180, 62%, 55%) 0.5rem;
+}
+
+#calculator {
+    margin-right: auto;
+    border-top: solid hsl(212, 86%, 64%) 0.5rem;
+}
+
+#middle-card-container {
+    max-width: 22rem;
+    padding: 0;
+}
+
+.svgs {
+    width: 4rem;
+    margin-left: auto;
+}
+
+@media (max-width: 1200px) {
+
+    #textcont {
+        padding: 0 1rem;
+    }
+
+    #cardscont {
+        display: grid;
+        align-items: center;
+    }
+    
+    #supervisor, #middle-card-container, #calculator {
+        margin: 0;
+        margin: 0 auto 1rem auto;
+    }
+}
